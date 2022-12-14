@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C0DE6AF-2DCF-4B17-AFEC-BF9E2F9B3DFF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "src\ConsoleApp\ConsoleApp.csproj", "{94A16F7B-7125-48CE-8241-FFEFE145C7DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A16F7B-7125-48CE-8241-FFEFE145C7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A16F7B-7125-48CE-8241-FFEFE145C7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A16F7B-7125-48CE-8241-FFEFE145C7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A16F7B-7125-48CE-8241-FFEFE145C7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0AB91B-0DE3-470F-9CF4-2D93FD10C096}
+	EndGlobalSection
+EndGlobal
